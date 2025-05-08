@@ -7,7 +7,7 @@ Esse guia apresenta o passo a passo para instalar o Arduino IDE e os drivers nec
 ## 1. Baixando o Arduino IDE
 Acesse o site oficial do Arduino IDE: [Arduino IDE](https://www.arduino.cc/en/software) e clique no link de download apropriado para o seu sistema operacional (Windows, macOS ou Linux).
 
-![alt text](materiais/imagens/image-1.png)
+![alt text](imagens/image-1.png)
 
 Depois disso, irá aparecer uma tela pedindo para você fazer uma doação, mas você pode clicar em **"Just Download"** para baixar o IDE gratuitamente. 
 
@@ -15,7 +15,7 @@ Ao clicar, o download do arquivo de instalação começará automaticamente. O a
 
 Ao finalizar a intalação, você poderá abrir o Arduino IDE. A interface do Arduino IDE é simples e intuitiva, com uma área de edição de código, uma barra de ferramentas e um console de saída. 
 
-![alt text](image.png)
+![alt text](imagens/image.png)
 
 ## 2. Instalando os drivers do ESP32
 
@@ -23,11 +23,11 @@ Para que o Arduino IDE reconheça o ESP32, é necessário instalar os drivers ap
 
 1. Acesse o site da Silicon Labs: [Silicon Labs](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers), selecione a aba de downloads e clique no link de download apropriado para o seu sistema operacional (Windows, macOS ou Linux). A imagem abaixo exibe a opção de download para Windows. Essa opção irá baixar um arquivo compactado.
 
-![alt text](image-2.png)
+![alt text](imagens/image-2.png)
 
 2. Após o download, extraia o conteúdo do arquivo compactado. Selecione o arquivo `Cp210xVCPInstaller_x64.exe` e clique duas vezes para executar o instalador. Siga as instruções na tela para concluir a instalação. Após a instalação, reinicie o computador para garantir que os drivers sejam reconhecidos corretamente.
 
-![alt text](image-3.png)
+![alt text](imagens/image-3.png)
 
 3. Conecte o ESP32 ao computador usando um cabo USB. Para verificar se o ESP32 foi reconhecido corretamente, abra o Gerenciador de Dispositivos (Windows) e procure por "Portas (COM e LPT)". O ESP32 deve aparecer como uma porta COM, como mostrado na imagem abaixo. Caso contrário, verifique se o cabo USB está funcionando corretamente e se os drivers foram instalados corretamente.
 
