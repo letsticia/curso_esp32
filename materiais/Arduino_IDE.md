@@ -7,7 +7,7 @@ Esse guia apresenta o passo a passo para instalar o Arduino IDE e os drivers nec
 ## 1. Baixando o Arduino IDE
 Acesse o site oficial do Arduino IDE: [Arduino IDE](https://www.arduino.cc/en/software) e clique no link de download apropriado para o seu sistema operacional (Windows, macOS ou Linux).
 
-![alt text](image-1.png)
+![alt text](materiais/imagens/image-1.png)
 
 Depois disso, irá aparecer uma tela pedindo para você fazer uma doação, mas você pode clicar em **"Just Download"** para baixar o IDE gratuitamente. 
 
