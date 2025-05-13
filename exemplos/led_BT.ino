@@ -1,7 +1,8 @@
 #include "BluetoothSerial.h"
 
 BluetoothSerial SerialBT;
-const int PINO_LED = 2;
+#define PINO_LED 2
+
 void setup() {
     Serial.begin(115200);
     SerialBT.begin("ESP32_BT"); 
